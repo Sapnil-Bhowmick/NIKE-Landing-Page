@@ -17,14 +17,15 @@ const PopularProducts = () => {
         </h2>
 
         <p className="mt-2 font-montserrat text-slate-gray lg:max-w-lg">
-          Lorem ipsum is a Latin text commonly used as a placeholder in graphic design and printing. It consists of a series of random sentences and words that resemble the structure of Latin text, but do not have any specific meaning.
+          Experience top-notch quality and style with our sought-after
+          selections. Discover a world of comfort, design, and value
         </p>
 
       </div>
 
-      <div className="mt-16 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  sm:gap-4 gap-14"> 
-        {products.map((item , index) => (
-          <PopularProductCard key={index} {...item}/>
+      <div className="mt-16 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  sm:gap-4 gap-14">
+        {products.map((item, index) => (
+          <PopularProductCard key={index} {...item} />
         ))}
       </div>
 
