@@ -9,7 +9,7 @@ const Button = ({ label, iconUrl, backgroundColor, borderColor, textColor , full
       }
     ${fullWidth && 'w-full'}
     gap-2
-    border px-7 py-4 font-montserrat hover:bg-red-500 hover:border-coral-red hover:font-semibold` }>
+    border px-7 py-4 font-montserrat hover:bg-red-500 hover:border-coral-red hover:font-semibold hover:text-white` }>
       {label}
       {iconUrl &&
         <img
