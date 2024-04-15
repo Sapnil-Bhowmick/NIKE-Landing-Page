@@ -23,7 +23,7 @@ const Hero = () => {
         </p>
         <h1 className="mt-10 font-palanquin text-8xl font-bold max-sm:text-[72px] max-sm:leading-[82px]">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
-            The New Arrival
+            The New Arrival 
           </span> <br/>
           <span className="text-coral-red inline-block lg:mt-3">Nike </span>
           Shoes

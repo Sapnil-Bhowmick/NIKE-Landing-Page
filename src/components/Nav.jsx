@@ -45,6 +45,7 @@ const Nav = () => {
                             height={25}
                         />
                     </div>}
+                    
 
                 {showsidebar &&
                     <div className=" bg-zinc-100 w-40 h-full flex flex-col p-3 lg:hidden">
